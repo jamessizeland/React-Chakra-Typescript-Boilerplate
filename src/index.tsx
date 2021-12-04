@@ -7,6 +7,8 @@ import { store } from './store/store';
 import { Layout } from './components';
 import AppRoutes from './routes';
 
+import './style/global.scss';
+
 import { homepage } from '../package.json';
 
 ReactDOM.render(
