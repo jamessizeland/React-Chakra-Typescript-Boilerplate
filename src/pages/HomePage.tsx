@@ -9,10 +9,10 @@ import {
   Grid,
   theme,
 } from '@chakra-ui/react';
-import { ColorModeSwitcher } from './ColorModeSwitcher';
-import { Logo } from './components/layout/Logo';
+import { ColorModeSwitcher } from '../components/Layout/ColorModeSwitcher';
+import { Logo } from '../components/Layout/Logo';
 
-export const App = () => (
+export const HomePage = () => (
   <ChakraProvider theme={theme}>
     <Box textAlign="center" fontSize="xl">
       <Grid minH="100vh" p={3}>
