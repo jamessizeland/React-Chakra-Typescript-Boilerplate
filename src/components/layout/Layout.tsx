@@ -10,6 +10,7 @@ export function Layout({ children }: LayoutProps): JSX.Element {
     <div>
       <ColorModeScript />
       <p>Header</p>
+      {children}
       <p>Footer</p>
     </div>
   );
