@@ -1,9 +1,9 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
 import logger from 'redux-logger';
 
-import userReducer from './user/userReducer';
-import errorReducer from './errors/errorLogReducer';
-import busyStateReducer from './busy/busyStateReducer';
+import userReducer from './reducers/userReducer';
+import errorReducer from './reducers/errorLogReducer';
+import busyStateReducer from './reducers/busyStateReducer';
 
 const middlewares = [logger]; // add more middleware here to be applied sequentially
 
